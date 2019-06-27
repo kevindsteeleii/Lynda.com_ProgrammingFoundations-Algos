@@ -67,5 +67,6 @@ class LinkedList:
 ex = Node(23)
 links = LinkedList(23)
 links.insert(12)
+links.insert("another one")
 print(ex)
 print(links.to_str())
